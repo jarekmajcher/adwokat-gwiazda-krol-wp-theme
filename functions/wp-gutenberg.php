@@ -26,12 +26,12 @@ class Theme_Wp_Gutenberg {
             [
                 'name'  => 'Dopełniający',
                 'slug'  => 'second',
-                'color' => '#000000'
+                'color' => '#B68C5A'
             ],
             [
                 'name'  => 'Mono 1',
                 'slug'  => 'mono1',
-                'color'	=> '#f6f6f6'
+                'color'	=> '#F5F5F5'
             ],
             [
                 'name'  => 'Mono 2',

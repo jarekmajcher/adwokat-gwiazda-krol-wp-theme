@@ -177,6 +177,25 @@
                             "maxlength": ""
                         }
                     ]
+                },
+                {
+                    "key": "field_gutenberg_slider_additional",
+                    "label": "Dodatkowe",
+                    "name": "additional",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "4",
+                    "new_lines": ""
                 }
             ]
         }
