@@ -26,11 +26,10 @@
             width: 100%;
             color: var.$colorBlack;
             background-color: var.$colorWhite;
-            border: 0.1em solid var.$colorSecond;
+            border: 1px solid var.$colorMono3;
             padding: 12px 15px;
             font-size: var.$fontSize;
             appearance: none;
-            border-radius: 12px;
             &:focus {
                 outline: none;
             }
@@ -95,19 +94,18 @@
             display: inline-block;
             margin-top: 1em;
             padding: 0.8em 4em;
-            border: 0.1em solid var.$colorSecond;
+            border: 1px solid var.$colorMain;
             color: var.$colorWhite;
-            background-color: var.$colorSecond;
+            background-color: var.$colorMain;
             text-decoration: none;
             text-align: center;
             will-change: color, background-color;
             transition: color 0.3s, background-color 0.3s;
-            font-weight: 500;
             cursor: pointer;
-            border-radius: 12px;
             font-size: var.$fontSize;
+            font-family: var.$fontFamily;
             &:hover:not(:disabled) {
-                color: var.$colorSecond;
+                color: var.$colorMain;
                 background-color: var.$colorWhite;
             }
             &:disabled {

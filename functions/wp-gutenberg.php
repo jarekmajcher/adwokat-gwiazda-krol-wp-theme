@@ -31,7 +31,7 @@ class Theme_Wp_Gutenberg {
             [
                 'name'  => 'Mono 1',
                 'slug'  => 'mono1',
-                'color'	=> '#F4F4F4'
+                'color'	=> '#f6f6f6'
             ],
             [
                 'name'  => 'Mono 2',
