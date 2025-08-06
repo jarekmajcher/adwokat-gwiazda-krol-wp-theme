@@ -1,0 +1,15 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:jarekmajcher/wp-helper.git"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "jarekmajcher/wp-helper": "^3.0.0",
+        "timber/timber": "^2.3",
+        "symfony/asset": "^7.2",
+        "symfony/http-foundation": "^7.2"
+    }
+}
