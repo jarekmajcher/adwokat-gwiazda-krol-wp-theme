@@ -26,8 +26,8 @@
             min-width: 200px;
             flex-direction: column;
             padding: 10px 20px;
-            background-color: var.$colorWhite;
-            box-shadow: 0 0 20px 0 rgba(var.$colorBlack, 0.3);
+            background-color: var(--wp--preset--color--mono-white);
+            box-shadow: 0 0 20px 0 rgb(from var(--wp--preset--color--mono-black) r g b / 0.3);
         }
         &--2 {
             display: none;
@@ -36,8 +36,8 @@
             left: 240px;
             min-height: 320px;
             padding: 30px;
-            background-color: var.$colorSecond;
-            border-left: 1px solid var.$colorMain;
+            background-color: var(--wp--preset--color--secondary-1);
+            border-left: 1px solid var(--wp--preset--color--primary-1);
         }
     }
     &__item {
@@ -54,14 +54,14 @@
                 display: block;
                 width: 28px;
                 height: 4px;
-                background-color: var.$colorMain;
+                background-color: var(--wp--preset--color--primary-1);
             }
             &:hover {
                 & .headerNav__items--1 {
                     display: flex !important;
                 }
                 & .headerNav__link--0 {
-                    color: var.$colorMain;
+                    color: var(--wp--preset--color--primary-1);
                 }
             }
             &.headerNav__item--current,
@@ -74,7 +74,7 @@
         }
         &--1 {
             display: block;
-            border-bottom: 1px solid var.$colorMono2;
+            border-bottom: 1px solid var(--wp--preset--color--mono-2);
             width: 100%;
             text-align: right;
             &:last-child {
@@ -92,7 +92,7 @@
             margin-bottom: 1em;
             &:hover {
                 & .mainNav__link--2 {
-                    color: var.$colorMain;
+                    color: var(--wp--preset--color--primary-1);
                 }
             }
         }
@@ -100,7 +100,7 @@
     &__link {
         will-change: color;
         transition: color 0.3s;
-        color: var.$colorBlack;
+        color: var(--wp--preset--color--mono-black);
         white-space: nowrap;
         font-weight: 500;
         &--0 {
@@ -116,7 +116,7 @@
                     height: 8px;
                     border-style: none none solid solid;
                     border-width: 2px;
-                    border-color: var.$colorMain;
+                    border-color: var(--wp--preset--color--primary-1);
                     transform: rotate(-45deg);
                     margin-bottom: 2px;
                     margin-left: 2px;
@@ -130,7 +130,7 @@
             &.headerNav__link--current,
             &.headerNav__link--currentParent,
             &.headerNav__link--currentType {
-                color: var.$colorMain;
+                color: var(--wp--preset--color--primary-1);
             }
         }
         &--2 {

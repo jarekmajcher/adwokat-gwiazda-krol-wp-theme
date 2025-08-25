@@ -9,8 +9,8 @@ body:not(.mm-wrapper--opened) .mm-slideout {
 
 .mobileNav {
     --mm-color-border: transparent;
-    --mm-color-background: #{var.$colorWhite};
-    --mm-color-icon: #{var.$colorBlack};
+    --mm-color-background: #{var(--wp--preset--color--mono-white)};
+    --mm-color-icon: #{var(--wp--preset--color--mono-black)};
 
     padding-top: 20px;
 

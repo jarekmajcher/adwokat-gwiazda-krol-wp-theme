@@ -7,7 +7,7 @@
  */
 .wp-block-columns {
     column-gap: var(--column-gap) !important;
-    row-gap: var(--row-gap) !important;
+    row-gap: calc(var(--row-gap) * 4) !important;
     .wp-block-column {
     }
 }
@@ -51,21 +51,6 @@
             padding: calc(var(--row-gap) * 2) calc(var(--column-gap) * 2);
         }
     }
-
-    // Fix padding in container
-    &.container {
-        .wp-block-media-text__content {
-            padding-right: 0;
-            padding-left: var(--column-gap);
-        }
-        &.has-media-on-the-right {
-            .wp-block-media-text__content {
-                padding-right: var(--column-gap);
-                padding-left: 0;
-            }
-        }
-    }
-
 }
 
 /**
