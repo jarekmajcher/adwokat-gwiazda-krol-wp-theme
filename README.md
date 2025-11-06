@@ -1,2 +1,2 @@
-# Mechanik Łowicz
-Wordpres theme for website
+# Adwokat Gwiazda Król
+Wordpres theme
